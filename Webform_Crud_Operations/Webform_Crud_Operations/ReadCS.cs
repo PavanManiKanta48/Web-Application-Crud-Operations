@@ -1,10 +1,10 @@
 ﻿using System;
-using System.Configuration;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 
-namespace CrudOperations
+namespace Webform_Crud_Operations
 {
     public class ReadCS
     {

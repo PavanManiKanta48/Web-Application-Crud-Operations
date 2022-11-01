@@ -7,16 +7,16 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A92643A5-0DB0-4377-9205-B07956BDC0BE}</ProjectGuid>
+    <ProjectGuid>{36098DF8-DD4C-444A-9432-58BE3B0F82E1}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CrudOperations</RootNamespace>
-    <AssemblyName>CrudOperations</AssemblyName>
+    <RootNamespace>Webform_Crud_Operations</RootNamespace>
+    <AssemblyName>Webform_Crud_Operations</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44384</IISExpressSSLPort>
+    <IISExpressSSLPort>44383</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -67,19 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ASPDB_Customer_GridView_Editing.aspx" />
+    <Content Include="AspDB_Customer.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ASPDB_Customer_GridView_Editing.aspx.cs">
-      <DependentUpon>ASPDB_Customer_GridView_Editing.aspx</DependentUpon>
+    <Compile Include="AspDB_Customer.aspx.cs">
+      <DependentUpon>AspDB_Customer.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ASPDB_Customer_GridView_Editing.aspx.designer.cs">
-      <DependentUpon>ASPDB_Customer_GridView_Editing.aspx</DependentUpon>
+    <Compile Include="AspDB_Customer.aspx.designer.cs">
+      <DependentUpon>AspDB_Customer.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Customer.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -112,9 +111,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>50954</DevelopmentServerPort>
+          <DevelopmentServerPort>49244</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44384/</IISUrl>
+          <IISUrl>https://localhost:44383/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

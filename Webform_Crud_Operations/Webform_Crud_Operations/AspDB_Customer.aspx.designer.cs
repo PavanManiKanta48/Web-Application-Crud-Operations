@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CrudOperations
+namespace Webform_Crud_Operations
 {
 
 
-    public partial class ASPDB_Customer_GridView_Editing
+    public partial class AspDB_Customer
     {
 
         /// <summary>
